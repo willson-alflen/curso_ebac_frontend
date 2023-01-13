@@ -1,2 +1,2 @@
 # curso_ebac_frontend
-Esse é um repositório fictício. O único intuito é demonstrar conhecimentos básicos de git e github.
+Para esta atividade, foi criado apenas um arquivo de texto. O intuito era praticar comandos básicos de git e github.
