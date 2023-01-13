@@ -41,6 +41,12 @@ main {
   margin: 10vh auto;
 }
 
+@media screen and (max-width: 1000px) {
+  main {
+    width: 90vw;
+  }
+}
+
 main .left,
 main .right {
   width: 40%;
@@ -129,4 +135,77 @@ main .right form p a {
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+
+  main {
+    display: block;
+    max-width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+
+  main .left,
+  main .right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  main .left h1 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  main .left p {
+    margin-bottom: 15px;
+  }
+
+  main .right h2 {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  main .right h2 span {
+    display: block;
+  }
+
+  main .right form label input,
+  main .right form input[type="submit"] {
+    font-size: 0.8rem;
+  }
+
+  main .right form p {
+    width: 95%;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  main {
+    display: block;
+    max-width: 375px;
+    text-align: center;
+  }
+
+  main .left,
+  main .right {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  main .left h1 {
+    line-height: 1.1;
+  }
+
+  main .left p {
+    margin-bottom: 15px;
+  }
 }
