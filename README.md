@@ -2,7 +2,7 @@
 
 ***
 
- Nesse repositório serão postadas as atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas.
+ Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
  
 ***
  
