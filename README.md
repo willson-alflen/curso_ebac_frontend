@@ -1,8 +1,8 @@
-# curso_ebac_frontend
+# exercicio_css
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+ News website layout
  
 ***
  
