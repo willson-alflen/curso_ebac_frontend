@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,200;1,9..144,400&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f8f3eb;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/*=============================================
+HEADER
+=============================================*/
+
+.header {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto 50px;
+  padding: 15px 0;
+  border: 1px solid black;
+}
+
+.header .logo {
+  font-weight: 900;
+}
+
+.header .menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.header .menu ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header .menu ul li.subscribe {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+/*=============================================
+WEBSITE LAYOUT 
+=============================================*/
+
+.news-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 1566px;
+}
+
+.news-layout .news-column {
+  padding: 2% 1%;
+}
+
+.news-layout .news-column h2,
+.news-layout .news-column img,
+.news-layout .news-column p {
+  margin-bottom: 15px;
+}
+
+.news-layout .news-column-1 {
+  flex-basis: 20%;
+  border-right: 1px solid rgb(211, 211, 211);
+}
+
+.news-layout .news-column-2 {
+  flex-basis: 35%;
+  border-right: 1px solid rgb(211, 211, 211);
+}
+
+.news-column-2 article figure figcaption {
+  font-size: 0.8rem;
+  margin: 0 0 15px;
+  padding: 0 10px;
+}
+
+.news-layout .news-column-3 {
+  flex-basis: 20%;
+  border-right: 1px solid rgb(211, 211, 211);
+}
+
+.news-layout .news-column-4 {
+  flex-basis: 25%;
+}
+
+.article-title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.article-title .highlight {
+    background-color: #ffff00;
+}
+
+.article-title .highlight-2 {
+    background-color: #FABEA1;
+}
+
+hr {
+  width: 90%;
+  margin: 50px auto;
+}
+
+span.leia-mais {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0 25px;
+}
+
+span.leia-mais a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+span.leia-mais a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sub-article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
