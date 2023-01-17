@@ -2,12 +2,12 @@
 
 ***
 
- News website layout
+ Este é um website de notícias. Possui um layout simples, foi desenvolvido usando apenas HTML e CSS, porém buscando seguir boa semântica e alguns princípios básicos de responsividade.
  
 ***
  
  <br><br>
  
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
+![ebac-news](https://user-images.githubusercontent.com/87523872/212907973-c98d455a-51f1-4c51-aa47-c906f361a666.png)
 
  <br><br>
