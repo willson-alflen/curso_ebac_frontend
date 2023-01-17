@@ -38,6 +38,10 @@ HEADER
   font-weight: 900;
 }
 
+.header #burger-menu {
+  display: none;
+}
+
 .header .menu ul {
   display: flex;
   justify-content: space-between;
@@ -208,4 +212,60 @@ aside article .podcast-player .podcast-progression-bar {
 
 aside article .podcast-player .podcast-time {
   width: fit-content;
+}
+
+/*=============================================
+MEDIA QUERIES
+=============================================*/
+
+@media (max-width: 1565px) {
+  .news-layout .news-column-1,
+  .news-layout .news-column-2,
+  .news-layout .news-column-3,
+  .news-layout .news-column-4 {
+    flex-basis: 33%;
+  }
+
+  .news-layout .news-column-1,
+  .news-layout .news-column-2,
+  .news-layout .news-column-3 {
+    border-bottom: 1px solid rgb(211, 211, 211);
+  }
+
+  .news-layout .news-column-4 {
+    border-right: 1px solid rgb(211, 211, 211);
+  }
+}
+
+@media (max-width: 1200px) {
+  .news-layout .news-column-1,
+  .news-layout .news-column-2,
+  .news-layout .news-column-3,
+  .news-layout .news-column-4 {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .news-layout .news-column-1,
+  .news-layout .news-column-2,
+  .news-layout .news-column-3,
+  .news-layout .news-column-4 {
+    flex-basis: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .header #burger-menu {
+    display: inline-block;
+    font-size: 1.6rem;
+  }
+
+  .header #burger-menu:hover {
+    cursor: pointer;
+  }
 }
