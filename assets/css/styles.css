@@ -21,7 +21,7 @@ img {
 }
 
 /*=============================================
-HEADER
+HEADER / MENU
 =============================================*/
 
 .header {
@@ -63,7 +63,7 @@ HEADER
 }
 
 /*=============================================
-WEBSITE LAYOUT 
+WEBSITE / COLUMNS LAYOUT 
 =============================================*/
 
 .news-layout {
@@ -114,6 +114,10 @@ WEBSITE LAYOUT
 .news-layout .news-column-4 {
   flex-basis: 25%;
 }
+
+/*=============================================
+ARTICLES
+=============================================*/
 
 .article-title {
   font-family: "Fraunces", serif;
@@ -170,7 +174,9 @@ span.leia-mais a:hover {
   font-weight: 700;
 }
 
-/* aside */
+/*=============================================
+ASIDE
+=============================================*/
 
 aside h2 {
   margin-bottom: 50px;
@@ -256,7 +262,11 @@ MEDIA QUERIES
     border-bottom: 1px solid rgb(211, 211, 211);
   }
 
-  .menu {
+  .header {
+    width: 90vw;
+  }
+
+  .header .menu {
     display: none;
   }
 
