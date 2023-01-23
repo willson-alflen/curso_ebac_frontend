@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4f6;
+  font-family: "Epilogue", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+  background-color: #f6f8fc;
+  border: 2px dashed black;
+}
+
+form fieldset {
+  border: none;
+}
+
+form h1 {
+  padding: 50px 20px 20px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+form input[type=number] {
+  width: 50px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+form input#number-A {
+    margin-right: 20px;
+}
+
+form #btn-verificar {
+  display: block;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1c87c9;
+  color: white;
+  border: none;
+}
+
+form #btn-verificar:hover {
+    cursor: pointer;
+}
