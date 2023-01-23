@@ -1,8 +1,8 @@
-# curso_ebac_frontend
+# exercicio_html_js
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+ Para esta atividade, foi necessário criar um formulário HTML com dois campos numéricos e um botão para submeter o mesmo. Também foi necessário criar uma validação básica com JavaScript: o formulário seria válido caso o valor numérico do campo "B" fosse maior do que o do campo "A".
  
 ***
  
