@@ -8,6 +8,6 @@
  
  <br><br>
  
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
+![exercicio_html_js](https://user-images.githubusercontent.com/87523872/214124261-8fcb1b28-7ced-4fd2-9e6a-e8a731ff0666.png)
 
  <br><br>
