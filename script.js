@@ -3,7 +3,7 @@ const numberA = document.querySelector("#number-A");
 const numberB = document.getElementById("number-B");
 
 function checkNumbers(a, b) {
-  if (b.value > a.value) {
+  if (b > a) {
     alert("O formulário é válido");
   } else {
     alert("O formulário não é válido");
@@ -13,5 +13,5 @@ function checkNumbers(a, b) {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  checkNumbers(numberA, numberB);
+  checkNumbers(numberA.value, numberB.value);
 });
