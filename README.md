@@ -1,13 +1,15 @@
-# curso_ebac_frontend
+# exercicio_jquery
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+ O objetivo desta atividade era praticar a manipulação do DOM e seus eventos utilizando a biblioteca jQuery. <br>
+ Esta aplicação é um lista de tarefas com design simples e que permite o cadastro e edição de tarefas. <br>
+ Veja mais aqui: 
  
 ***
  
  <br><br>
  
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
+imagem
 
  <br><br>
