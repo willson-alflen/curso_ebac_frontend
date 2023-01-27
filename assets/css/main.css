@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*=====================================================
+MAIN-CONTAINER
+=======================================================*/
+.main-container {
+  max-width: 720px;
+  text-align: center;
+  margin: 20vh auto;
+}
+
+.main-container p.app-description {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/*=====================================================
+FORM / CADASTRO DE TAREFAS
+=======================================================*/
+.main-container form {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.main-container form input#nova-tarefa {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  height: 32px;
+  padding: 6px 0 1px 6px;
+}
+
+.main-container form button#btn-cadastrar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgb(5, 97, 5);
+  background-color: rgba(196, 243, 211, 0.5);
+  border: none;
+  height: 32px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.main-container form button#btn-cadastrar:hover {
+  background-color: #009432;
+  color: #fff;
+}
+
+/*=====================================================
+OL / LISTA DE TAREFAS
+=======================================================*/
+.main-container ol#lista-de-tarefas {
+  text-align: left;
+  margin: 0 auto 20vh;
+  list-style-position: inside;
+}
+
+.main-container li#item-da-lista {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(196, 243, 211, 0.5);
+  color: rgb(5, 97, 5);
+  padding: 6px 24px;
+  margin-bottom: 15px;
+}
+
+.main-container li#item-da-lista:hover {
+  transform: scale(1.05);
+  transition: 500ms;
+  margin: 20px 0;
+}
+
+.main-container li#item-da-lista div.descricao-da-tarefa {
+  max-width: 87%;
+}
+
+.main-container li#item-da-lista div.descricao-da-tarefa.checked {
+  text-decoration: line-through;
+  transition: 0.2s;
+}
+
+.main-container li#item-da-lista div.icons {
+  width: 13%;
+  text-align: center;
+}
+
+.main-container li#item-da-lista i {
+  width: 40%;
+  cursor: pointer;
+}
+
+.main-container li#item-da-lista i.fa-check {
+  color: blue;
+}
+
+.main-container li#item-da-lista i.fa-xmark {
+  color: red;
+}
+
+.main-container li#item-da-lista i:hover {
+  transform: scale(1.8);
+  transition: 300ms;
+}
+
+/*=====================================================
+DIV / DESCRICAO DAS FUNCIONALIDADES
+=======================================================*/
+.main-container div.descricao-das-funcionalidades {
+  text-align: left;
+}
+.main-container div.descricao-das-funcionalidades p {
+  font-size: 13px;
+}
+
+/*=====================================================
+FOOTER
+=======================================================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 5vh 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}

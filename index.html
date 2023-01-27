@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local css -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Lista de tarefas</h1>
+        <p class="app-description">
+            Insira uma tarefa, marque-a como concluída ou exclua-a
+        </p>
+
+        <form action="/" id="cadastro-de-tarefas">
+            <input type="text" name="nova-tarefa" id="nova-tarefa" required placeholder="Escreva uma tarefa...">
+            <button type="submit" id="btn-cadastrar">Cadastrar</button>
+        </form>
+
+        <ol id="lista-de-tarefas">
+            <li id="item-da-lista">
+                <div class="descricao-da-tarefa">
+                    Sua tarefa aparecerá aqui...
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-check"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </li>
+        </ol>
+
+        <div class="descricao-das-funcionalidades">
+            <p>
+                Para concluir uma tarefa clique no botão <i class="fa-solid fa-check"></i> ou dê um duplo clique em cima
+                do texto
+            </p>
+            <p>
+                Para excluir uma tarefa, clique no botão <i class="fa-solid fa-xmark"></i>
+            </p>
+            <p>
+                Para reorganizar um item da lista, clique no mesmo e arraste-o
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="attribution">
+            Challenge by <a
+                href="https://static.lms.ebaconline.com.br/content-files/215df3d0-0f03-4617-95b5-92b0962db915/original.pdf"
+                target="_blank"><strong>Ebac</strong></a>.
+            Coded by <a href="#"><strong>Willson Alflen</strong></a>.
+        </div>
+    </footer>
+
+    <!-- external js / jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- local js -->
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
