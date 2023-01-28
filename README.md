@@ -4,7 +4,7 @@
 
  O objetivo desta atividade era praticar a manipulação do DOM e seus eventos utilizando a biblioteca jQuery. <br>
  Esta aplicação é um lista de tarefas com design simples e que permite o cadastro e edição de tarefas. <br>
- Veja mais aqui: [ebac-exercicio-jquery](https://vercel.com/willson-alflen/ebac-exercicio-jquery)
+ Veja mais aqui: [https://vercel.com/willson-alflen/ebac-exercicio-jquery](https://ebac-exercicio-jquery.vercel.app/)
  
 ***
  
