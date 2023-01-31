@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local css -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>Seja Membro | Contact Form</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <form action="#" method="POST">
+            <div class="form-header">
+                <i class="fa-regular fa-address-card"></i>
+                <h1>Seja membro!</h1>
+                <p>Cadastre-se para ter acesso a todas as funcionalidades</p>
+            </div>
+
+            <fieldset>
+                <label for="name">Nome:<input type="text" name="name" id="name" placeholder="Escreva seu nome completo" required></label>
+
+                <label for="email">Email: <input type="email" name="email" id="email" placeholder="seuemail@email.com" required></label>
+
+                <label for="phoneNumber">Telefone <small>(celular)</small>:<input type="tel" name="phoneNumber" id="phoneNumber" required></label>
+
+                <label for="cpf">Número do CPF:<input type="text" name="cpf" id="cpf" required></label>
+
+                <label for="endereco">Endereço completo:<input type="text" name="endereco" id="endereco" placeholder="Av. Alameda dos Anjos, nº 111, Bairro Zord, São Paulo - SP"></label>
+
+                <label for="cep">CEP:<input type="text" name="cep" id="cep"></label>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <div class="attribution">
+            Challenge by <a
+                href="https://static.lms.ebaconline.com.br/content-files/215df3d0-0f03-4617-95b5-92b0962db915/original.pdf"
+                target="_blank"><strong>Ebac</strong></a>.
+            Coded by <a href="#"><strong>Willson Alflen</strong></a>.
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- jQuery mask plugin -->
+    <script src="/assets/js/jquery.mask.min.js"></script>
+    <!-- jQuery form validation plugin -->
+    <script src="/assets/js/jquery.validate.min.js"></script>
+    <script src="/assets/js/messages_pt_BR.min.js"></script>
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- local js -->
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
