@@ -4,7 +4,7 @@
 
  Como exercício final do módulo, era necessário criar um formulário de cadastro que possuísse determinados campos (nome, email, telefone, etc) e que fosse feito uso do plugin jQuery Mask para aplicar máscara aos campos. <br>
  Opcionalmente, também utilizei o plugin jQuery Validation para validar o próprio formulário e, ainda, o plugin Sweet Alert para personalizar as mensagens no formato <i>alert</i>. <br>
- O design foi inspirado em um projeto encontrado no site (dribbble.com)[https://dribbble.com/shots/19909455-Members-Contact-Page] <br>
+ O design foi inspirado em um projeto encontrado no site [dribbble.com](https://dribbble.com/shots/19909455-Members-Contact-Page) <br>
  Você pode conferir esse formulário aqui: https://ebac-plugins-jquery.vercel.app/
 
  
