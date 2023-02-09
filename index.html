@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- local css -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <main>
+    <section class="vh-100 d-flex justify-content-center align-items-center">
+      <form action="#" class="row needs-validation" novalidate style="max-width: 768px">
+        <div class="image-container text-center">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+            class="col-10 mb-4 mt-5" "
+            alt="desenho arte moderna representando com figuras geométricas coloridas uma pessoa entrando por uma porta">
+        </div>
+
+        <div class="form-content d-flex justify-content-center align-items-center">
+          <fieldset class="col-10">
+            <h1 class="text-center mb-4">Inscreva-se</h1>
+
+            <div class="d-flex align-items-center justify-content-center mb-3">
+              <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+              <label for="name" class="sr-only">Nome</label>
+              <input type="name" name="name" id="name" class="form-control" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center mb-3">
+              <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email" required>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <i class="fas fa-phone fa-lg me-3 fa-fw"></i>
+              <label for="tel" class="sr-only">Telefone</label>
+              <input type="text" name="tel" id="tel" class="form-control" placeholder="(99) 99999-9999"
+                pattern="\(?[0-9]{2,3}\)?\s?[0-9]{4,5}-?[0-9]{4}" required>
+            </div>
+
+            <div class="form-check form-switch mb-3">
+              <input class="form-check-input" type="checkbox" role="switch" id="switchCheck" checked>
+              <label class="form-check-label" for="switchCheck">Lembre-se de mim</label>
+            </div>
+
+            <div class="text-center mb-5 mt-5">
+              <button id="btnSubmit" class="col-6 text-center btn btn-lg btn-primary btn-block"
+                type="submit">Entrar</button>
+            </div>
+          </fieldset>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- sweet alert cdn -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- local js -->
+  <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

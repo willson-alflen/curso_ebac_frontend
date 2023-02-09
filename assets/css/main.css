@@ -1,0 +1,27 @@
+section {
+    background-color: #eee;
+}
+
+form {
+    background-color: #fff;
+    height: fit-content;
+    max-width: 600px;
+    border-radius: 25px;
+}
+
+/* remove arrows from inputs */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button[type=submit]{
+    background: linear-gradient(90deg, #0162c8, #3dbdd1b2);
+}
