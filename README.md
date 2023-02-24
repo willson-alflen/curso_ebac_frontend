@@ -1,13 +1,13 @@
-# curso_ebac_frontend
+# exercicio_sass
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+Nesse exercício, era necessário converter um projeto html e css comum em um projeto sass. Para isso, além da instalação do node e do pacote sass, também foi feita a modularização dos componentes e a criação das variáveis que seriam utilizadas por todo o projeto. Por fim, também foram feitos pequenos ajustes no layout para uma melhor responsividade e a adição de um pequeno efeito de hover no itens do menu dentro do header. 
  
 ***
  
  <br><br>
  
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
+![exercicio_sass](https://user-images.githubusercontent.com/87523872/221200790-a1ce6684-7bfa-4239-a41c-5882fe54a0b3.png)
 
  <br><br>
