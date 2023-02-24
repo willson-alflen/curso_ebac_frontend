@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+
+  section {
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+      }
+  }
+}

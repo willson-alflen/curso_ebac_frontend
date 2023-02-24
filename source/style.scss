@@ -1,0 +1,10 @@
+@import "./config/reset";
+@import "./config/variables";
+@import "./partials/header";
+@import "./partials/main-container";
+@import "./partials/products";
+
+body {
+  background-color: $light-bg-color;
+  font-family: $font-stack;
+}
