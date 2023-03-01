@@ -1,13 +1,13 @@
-# curso_ebac_frontend
+# exercicio_gulp
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+ O objetivo aqui era criar um arquivo gulpfile.js e, através deste, compilar o CSS e comprimir as imagens e arquivos JavaScript. Para uma melhor apresentação - e também para continuar praticando o uso do Sass - eu criei um miniprojeto que seria uma galeria de fotos.
  
 ***
  
  <br><br>
  
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
+![photo-gallery](https://user-images.githubusercontent.com/87523872/222143360-27198840-7bfe-41a4-8b7b-2d71e290a0bf.png)
 
  <br><br>
