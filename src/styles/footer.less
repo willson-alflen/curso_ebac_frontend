@@ -1,0 +1,29 @@
+footer {
+  background-color: #colors[bgClrSecondary];
+  margin-top: 56px;
+  padding: 16px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+
+        .social-links {
+            display: flex;
+            justify-content: space-between;
+            max-width: 240px;
+            width: 100%;
+            margin: auto;
+        
+            li {
+                list-style: none;
+        
+                img {
+                    transition: all ease .3s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}
