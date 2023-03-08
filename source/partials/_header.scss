@@ -27,13 +27,13 @@
   }
 
   &-navbar {
+    display: none;
+
     ul {
       height: 100%;
       display: flex;
       @include mixins.flex-center;
-      @include mixins.mobile {
-        display: none;
-      }
+      @include mixins.mobile;
 
       li {
         margin: 0 1rem;
@@ -49,6 +49,11 @@
         }
       }
     }
+  }
+
+  &-navbar.show {
+    display: block;
+    padding: 0 20px;
   }
 
   &-social-media {

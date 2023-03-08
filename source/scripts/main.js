@@ -1,14 +1,18 @@
-const iconHamburger = document.querySelector("#iconHamburger");
+const iconHamburger = document.getElementById("iconHamburger");
 const nav = document.querySelector(".header-navbar");
+const mediaQuery = window.matchMedia("(min-width: 600px)");
 
 iconHamburger.addEventListener("click", () => {
   iconHamburger.classList.toggle("rotateImage");
+  nav.classList.toggle("show");
 });
 
-function toggle() {
-  if (nav.style.display === "none") {
-    nav.style.display = "block";
-  } else {
-    nav.style.display = "none";
+function handleMediaQuery(event) {
+  if (event.matches) {
+    iconHamburger.classList.remove("rotateImage");
+    nav.classList.add("show");
   }
 }
+
+mediaQuery.addEventListener("change", handleMediaQuery);
+handleMediaQuery(mediaQuery);
