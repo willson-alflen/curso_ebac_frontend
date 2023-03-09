@@ -1,6 +1,6 @@
 const iconHamburger = document.getElementById("iconHamburger");
 const nav = document.querySelector(".header-navbar");
-const mediaQuery = window.matchMedia("(min-width: 600px)");
+const mediaQuery = window.matchMedia("(min-width: 768px)");
 
 iconHamburger.addEventListener("click", () => {
   iconHamburger.classList.toggle("rotateImage");
@@ -11,6 +11,8 @@ function handleMediaQuery(event) {
   if (event.matches) {
     iconHamburger.classList.remove("rotateImage");
     nav.classList.add("show");
+  } else {
+    nav.classList.remove("show");
   }
 }
 
