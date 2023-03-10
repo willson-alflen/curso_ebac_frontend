@@ -1,0 +1,90 @@
+@import "./_mixins.less";
+@import "../config/_initialConfig.less";
+
+.gallery {
+  .flex-center();
+  .container();
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+
+  .mobile() {
+    flex-direction: column;
+  }
+
+  &-card {
+    width: 31%;
+    height: 400px;
+    margin-bottom: 4%;
+    .flex-center();
+    flex-direction: column;
+    color: @primary-color;
+
+    .mobile() {
+      width: 90%;
+      margin-bottom: 6%;
+    }
+
+    &-title {
+      font-size: 2rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+
+    &-btn {
+      padding: 0.6rem 2rem;
+      border: 2px solid @primary-color;
+      color: @primary-color;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      &:hover {
+        background-color: @primary-color;
+        color: @bg-color;
+      }
+    }
+  }
+
+  @media screen and (min-width: 426px) and (max-width: 767px) {
+    &-card {
+      width: 48%;
+    }
+  }
+
+  #card-1 {
+   .bg-img("animais.jpg");
+  }
+
+  #card-2 {
+   .bg-img("arquitetura.jpg");
+  }
+
+  #card-3 {
+   .bg-img("cidade.jpg");
+  }
+
+  #card-4 {
+   .bg-img("decoracao.jpg");
+  }
+
+  #card-5 {
+   .bg-img("esportes.jpg");
+  }
+
+  #card-6 {
+   .bg-img("natureza.jpg");
+  }
+
+  #card-7 {
+   .bg-img("paisagem.jpg");
+  }
+
+  #card-8 {
+   .bg-img("pessoas.jpg");
+  }
+
+  #card-9 {
+   .bg-img("refeicoes.jpg");
+  }
+}

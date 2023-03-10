@@ -1,19 +1,19 @@
-@use "../config/variables";
+@import "../config/_initialConfig.less";
 
-@mixin container {
-  max-width: variables.$container-width;
+.container() {
+  max-width: @container-width;
   padding: 1.5rem 0;
   margin: 0 auto;
 }
 
-@mixin flex-center {
+.flex-center() {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@mixin bg-img($img) {
-  background-image: url("/source/images/#{$img}");
+.bg-img(@img) {
+  background-image: url("/source/images/@{img}");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,12 +24,12 @@
     background-size: 110%;
     filter: grayscale(0%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/source/images/#{$img}");
+      url("/source/images/@{img}");
   }
 }
 
-@mixin mobile {
-  @media (max-width: 425px) {
-    @content;
-  }
-}
+// .mobile() {
+//   @media (max-width: 425px) {
+//     @content;
+//   }
+// }

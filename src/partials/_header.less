@@ -1,11 +1,11 @@
-@use "../config/variables";
-@use "./mixins";
+@import "../config/_initialConfig.less";
+@import "./mixins";
 
 .header {
   display: flex;
   justify-content: space-between;
-  @include mixins.container;
-  @include mixins.mobile {
+  .container();
+  .mobile() {
     padding: 1.1rem;
   }
 
@@ -15,7 +15,7 @@
   }
 
   &-brand {
-    color: variables.$primary-color;
+    color: @primary-color;
     font-size: 3rem;
   }
 
@@ -32,8 +32,8 @@
     ul {
       height: 100%;
       display: flex;
-      @include mixins.flex-center;
-      @include mixins.mobile;
+      .flex-center();
+      .mobile();
 
       li {
         margin: 0 1rem;
@@ -41,11 +41,11 @@
         font-size: 0.8rem;
 
         .active {
-          color: variables.$secondary-color;
+          color: @secondary-color;
         }
 
         a:hover {
-          color: variables.$secondary-color;
+          color: @secondary-color;
         }
       }
     }
@@ -58,10 +58,10 @@
 
   &-social-media {
     ul {
-      @include mixins.flex-center;
+      .flex-center();
       height: 100%;
 
-      @include mixins.mobile {
+      .mobile() {
         display: none;
       }
 
@@ -69,7 +69,7 @@
         margin: 0 1rem;
 
         a:hover {
-          color: variables.$primary-color;
+          color: @primary-color;
         }
       }
     }
