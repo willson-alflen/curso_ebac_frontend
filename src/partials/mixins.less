@@ -1,4 +1,4 @@
-@import "../config/_initialConfig.less";
+@import "../config/initialConfig";
 
 .container() {
   max-width: @container-width;
@@ -13,7 +13,7 @@
 }
 
 .bg-img(@img) {
-  background-image: url("/source/images/@{img}");
+  background-image: url("/src/images/@{img}");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     background-size: 110%;
     filter: grayscale(0%);
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/source/images/@{img}");
+      url("/src/images/@{img}");
   }
 }
 
