@@ -1,8 +1,8 @@
-# exercicio_gulp
+# exercicio_grunt
 
 ***
 
- O objetivo aqui era criar um arquivo gulpfile.js e, através deste, compilar o CSS e comprimir as imagens e arquivos JavaScript. Para uma melhor apresentação - e também para continuar praticando o uso do Sass - eu criei um miniprojeto que seria uma galeria de fotos.
+ O objetivo desta atividade era criar um arquivo Gruntfile.js e, através deste, compilar o CSS e comprimir as imagens e arquivos JavaScript. O projeto trata-se de uma galeria de fotos - o mesmo projeto criado para o exercicio_gulp, porém convertido, usando agora o Grunt e Less no lugar de Gulp e Sass. 
  
 ***
  
