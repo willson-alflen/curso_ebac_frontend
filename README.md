@@ -1,4 +1,4 @@
-# curso_ebac_frontend
+# exercicio_boas_praticas_css
 
 ***
 
