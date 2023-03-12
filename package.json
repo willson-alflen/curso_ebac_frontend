@@ -1,0 +1,27 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "description": "***",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.59.2"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "sass": "sass src/styles/main.scss build/styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willson-alflen/curso_ebac_frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willson-alflen/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/willson-alflen/curso_ebac_frontend#readme"
+}

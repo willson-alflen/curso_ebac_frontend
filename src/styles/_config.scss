@@ -1,0 +1,15 @@
+// colors
+$corDoTexto: gray;
+$corDaBorda: gold;
+$corDeFundoDestaque: #ffff42;
+
+// grid layout
+$grid-columns: repeat(3, 1fr);
+$grid-gap: 1%;
+
+// reset
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

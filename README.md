@@ -2,7 +2,7 @@
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+ Esta atividade consistia em realizar as mudanças necessárias em um projeto HTML e CSS simples para que se adequasse às boas práticas de CSS utilizando a metodologia BEM junto ao SASS.
  
 ***
  
