@@ -1,13 +1,11 @@
-# curso_ebac_frontend
+# exercicio_poo_js
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+ Esta é a primeira atividade do módulo de programação orientada à objetos com javascript. <br>
+ A atividade consistia na criação de uma classe de uma abstração, na criação de outras duas classes
+ que fossem herdeiras da anterior e na criação de três instâncias das classes criadas.
  
 ***
  
- <br><br>
- 
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
 
- <br><br>
