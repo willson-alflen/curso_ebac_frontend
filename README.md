@@ -1,13 +1,9 @@
-# curso_ebac_frontend
+# exercicio_es6
 
 ***
 
- Nesse repositório serão postadas algumas das atividades referentes ao curso "Engenheiro Front End" da EBAC - Escola Britânica de Artes Criativas & Tecnologia.
+Esta é a atividade referente ao módulo 25 - Recursos do ES6+, e consistia em criar um array de objetos, onde deveria ter os atributos nome e nota de alunos. Também era necessário criar um função que retornasse apenas os alunos que tiveram nota maior ou igual a 6.
  
 ***
  
- <br><br>
  
-![ebac](https://user-images.githubusercontent.com/87523872/212391105-25f9c36b-234b-4023-aedb-d68c43011de4.svg)
-
- <br><br>
