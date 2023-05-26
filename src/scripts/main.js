@@ -1,3 +1,24 @@
+/* MINIFICAÇÃO DO CÓDIGO USANDO UGLIFY-JS*/
+const { exec } = require("child_process");
+
+// Caminho do arquivo JavaScript original
+const inputFilePath = "src/scripts/main.js";
+
+// Caminho do arquivo JavaScript minificado de saída
+const outputFilePath = "dist/scripts/main.min.js";
+
+// Comando para executar o Babel e o UglifyJS
+const command = `npx babel ${inputFilePath} --presets=@babel/preset-env | npx uglifyjs -o ${outputFilePath}`;
+
+// Executar o comando no terminal
+exec(command, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`Erro durante a minificação: ${error}`);
+    return;
+  }
+});
+
+/* CHAMADA PARA A API */
 document.addEventListener("DOMContentLoaded", function () {
   const avatar = document.getElementById("avatar");
   const name = document.getElementById("name");
@@ -23,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       numberOfFollowings.innerText = json.following;
       profileUrl.href = json.html_url;
     })
-   .catch(function (error) {
+    .catch(function (error) {
       // Trata o erro da requisição
       console.log("Ocorreu um erro na requisição:", error);
       // Exibe uma mensagem de erro ao usuário usando o SweetAlert
