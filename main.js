@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   fetch("https://api.github.com/users/willson-alflen")
     .then(function (res) {
+      if (!res.ok) {
+        throw new Error("Network response was not ok");
+      }
       return res.json();
     })
     .then(function (json) {
@@ -19,5 +22,16 @@ document.addEventListener("DOMContentLoaded", function () {
       numberOfFollowers.innerText = json.followers;
       numberOfFollowings.innerText = json.following;
       profileUrl.href = json.html_url;
+    })
+   .catch(function (error) {
+      // Trata o erro da requisição
+      console.log("Ocorreu um erro na requisição:", error);
+      // Exibe uma mensagem de erro ao usuário usando o SweetAlert
+      swal({
+        title: "Erro",
+        text: "Ocorreu um erro na requisição. Por favor, tente novamente mais tarde.",
+        icon: "error",
+        button: "OK",
+      });
     });
 });
