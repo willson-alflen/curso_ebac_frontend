@@ -1,23 +1,3 @@
-/* MINIFICAÇÃO DO CÓDIGO USANDO UGLIFY-JS*/
-const { exec } = require("child_process");
-
-// Caminho do arquivo JavaScript original
-const inputFilePath = "src/scripts/main.js";
-
-// Caminho do arquivo JavaScript minificado de saída
-const outputFilePath = "dist/scripts/main.min.js";
-
-// Comando para executar o Babel e o UglifyJS
-const command = `npx babel ${inputFilePath} --presets=@babel/preset-env | npx uglifyjs -o ${outputFilePath}`;
-
-// Executar o comando no terminal
-exec(command, (error, stdout, stderr) => {
-  if (error) {
-    console.error(`Erro durante a minificação: ${error}`);
-    return;
-  }
-});
-
 /* CHAMADA PARA A API */
 document.addEventListener("DOMContentLoaded", function () {
   const avatar = document.getElementById("avatar");
@@ -55,4 +35,24 @@ document.addEventListener("DOMContentLoaded", function () {
         button: "OK",
       });
     });
+});
+
+/* MINIFICAÇÃO DO CÓDIGO USANDO UGLIFY-JS*/
+const { exec } = require("child_process");
+
+// Caminho do arquivo JavaScript original
+const inputFilePath = "src/scripts/main.js";
+
+// Caminho do arquivo JavaScript minificado de saída
+const outputFilePath = "dist/scripts/main.min.js";
+
+// Comando para executar o Babel e o UglifyJS
+const command = `npx babel ${inputFilePath} --presets=@babel/preset-env | npx uglifyjs -o ${outputFilePath}`;
+
+// Executar o comando no terminal
+exec(command, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`Erro durante a minificação: ${error}`);
+    return;
+  }
 });
