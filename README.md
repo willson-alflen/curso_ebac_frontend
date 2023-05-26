@@ -3,7 +3,7 @@
 ***
 
 Esse é o exercício do módulo 23 - Ajax e Exceções. A tarefa consistia apenas em adaptar o projeto base, previamente disponibilizado, 
-para que os dados fossem preenchidos via requisição Ajax usando a API do GitHub.
+para que os dados fossem preenchidos via requisição Ajax usando a API do GitHub. Como complemento, eu implementei o uso da ferramenta gulp para compilar os arquivos scss e também implementei o uglify-js para minificação dos arquivos javascript.
 
  
 ***
