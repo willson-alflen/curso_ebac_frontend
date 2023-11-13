@@ -8,6 +8,9 @@
 ### Para instalar as dependências
 `npm install` ou `yarn install`
 
+### Para acessar os testes
+`cypress/e2e/3-agenda-de-contatos/funcionalidades.cy.js`
+
 ### Para executar os testes
 `npm run cypress:open` ou `yarn run cypress open` ou `npx cypress open`
 
